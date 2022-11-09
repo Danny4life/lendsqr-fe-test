@@ -1,0 +1,103 @@
+.navbar {
+    height: 50px;
+    //border-bottom: 0.5px solid rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+    
+    //background: white;
+
+
+    .wrapper {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+      
+
+        .search {
+            display: flex;
+            align-items: center;
+            border: 1px solid #213F7D;
+            border: none;
+            box-sizing: border-box;
+            padding: 3px;
+            height: 35px;
+
+           
+           
+            //background-color: #39CDCC;
+            
+
+
+            button {
+                padding: 7px 12px;
+                position: relative;
+                //left: 2px;
+                background-color: #39CDCC;
+                height: 34px;
+                top: 1px;
+                border: 1px solid #39CDCC;
+                
+                
+            }
+            
+            
+            
+            
+            // .searchIcon {
+            //     color: white;
+            // }
+
+            input {
+                //border: none;
+                outline: none;
+                background-color: transparent;
+                width: 300px;
+                height: 32px;
+                //border: 5px;
+                
+              
+                
+             
+
+                &::placeholder {
+                    font-size: 12px;
+                    
+                }
+            }
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+
+            .item {
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+
+                .avatar {
+                    height: 30px;
+                    width: 30px;border-radius: 50%;
+                }
+
+                .icon-doc {
+                    border-bottom: 1px solid #555;
+                    
+                    
+                }
+
+                .name {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 19px;
+                }
+
+            }
+        }
+    }
+}
